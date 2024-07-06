@@ -34,7 +34,7 @@ O Menu Application Backend é uma API RESTful desenvolvida com Java e Spring Boo
 
 ### Passo a Passo
 
-1. **Clone o repositório**
+1. **Clonar o repositório**
 
    ```bash
    git clone https://github.com/fermarino/menu-application-backend.git
@@ -49,7 +49,7 @@ O Menu Application Backend é uma API RESTful desenvolvida com Java e Spring Boo
    CREATE DATABASE food;
    ```
 
-3. **Configure o banco de dados PostgreSQL e atualize o arquivo application.properties com suas credenciais**
+3. **Configurar o banco de dados PostgreSQL e atualizar o arquivo application.properties com suas credenciais**
 
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/food
@@ -60,7 +60,7 @@ O Menu Application Backend é uma API RESTful desenvolvida com Java e Spring Boo
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
    ```
 
-4. **Compile e execute o projeto**
+4. **Compilar e executar o projeto**
 
    No diretório raiz do projeto, execute o comando para compilar o projeto com Maven:
 
@@ -74,7 +74,7 @@ O Menu Application Backend é uma API RESTful desenvolvida com Java e Spring Boo
    mvn spring-boot:run
    ```
 
-5. **Acesse a aplicação**
+5. **Acessar a aplicação**
 
    A API estará disponível no endereço: `http://localhost:8080/food`
 
